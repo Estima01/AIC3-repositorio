@@ -8,6 +8,7 @@
   - [ ] Montar um ER do sistema e documentar
   - [ ] Analise do sistema
   - [ ] Criar um esboço com as informações coletadas
+  - [ ] apresentação do estudo de caso
   
   
 >
@@ -15,6 +16,7 @@
   - [ ] Back-End -  Py, Django
   - [ ] Front-End - JS, CSS, HTML, React
   - [ ] Data Base - My-SQL, Postgresiql
+  - [ ] apresentação do desenvolvimento
 
     
 >
@@ -22,6 +24,7 @@
   - [ ] simulação de entrada de dados
   - [ ] simulação de navegação
   - [ ] simulação de torneio
+  - [ ] apresentação dos resultados
 
   
     
