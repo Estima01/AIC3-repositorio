@@ -4,19 +4,18 @@
 
 ## Funcionalidades
 
-- [ ] F1 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ]
+- [ ] F1 - Estudo de caso
+  - [ ] Fazer a coleta de informação sobre como funciona os jogos e torneios
+  - [ ] Montar um ER do sistema e documentar/descrever
+  - [ ] Analise do sistema
+  - [ ] Criar um esboço com as informações coletadas
+  
   
 >
-- [ ] F2 
-  - [ ] 
-  - [ ] 
-  - [ ] 
+- [ ] F2 - Desenvolvimento
+  - [ ] Back-End -  Py, Django
+  - [ ] Front-End - JS, CSS, HTML, React
+  - [ ] Data Base - My-SQL
   - [ ] 
   - [ ] 
   - [ ] 
