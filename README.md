@@ -5,6 +5,8 @@
 
 - [ ]  Estudo de caso
   - [x] Fazer a coleta de informação sobre como funciona os jogos e torneios
+    - [x] Tabela do torneio
+    - [x] Esquema da montagem das chaves
   - [ ] Montar um ER do sistema e documentar
   - [ ] Analise do sistema
   - [ ] Criar um esboço com as informações coletadas
