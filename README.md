@@ -2,36 +2,31 @@
 /Trabalho de desenvolvimento de um sistema para as partidas de tenis chique
 
 
-## Funcionalidades
 
-- [ ] F1 - Estudo de caso
-  - [ ] Fazer a coleta de informação sobre como funciona os jogos e torneios
-  - [ ] Montar um ER do sistema e documentar/descrever
+- [ ]  Estudo de caso
+  - [x] Fazer a coleta de informação sobre como funciona os jogos e torneios
+  - [ ] Montar um ER do sistema e documentar
   - [ ] Analise do sistema
   - [ ] Criar um esboço com as informações coletadas
   
   
 >
-- [ ] F2 - Desenvolvimento
+- [ ]  Desenvolvimento
   - [ ] Back-End -  Py, Django
   - [ ] Front-End - JS, CSS, HTML, React
-  - [ ] Data Base - My-SQL
-  - [ ] 
-  - [ ] 
-  - [ ] 
+  - [ ] Data Base - My-SQL, Postgresiql
+
     
 >
-- [ ] F3 
-  - [ ]
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
-  - [ ] 
+- [ ] Testes
+  - [ ] simulação de entrada de dados
+  - [ ] simulação de navegação
+  - [ ] simulação de torneio
+
+  
     
 >
-- [ ] F4 
+- [ ] Conclusão 
   - [ ] 
   - [ ] 
   - [ ] 
