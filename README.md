@@ -38,3 +38,19 @@
   - [ ] 
   - [ ] 
   - [ ] 
+
+#Relatorio 17/08/22
+Para inscrição o formulário pede:
+
+- Nome e sobrenome da dupla
+- telefone dos jogadores
+- cidade onde moram
+- categoria que vão jogar
+- restrições de dias que não podem jogar
+- concordancia com o regulamento
+- torneio/clube
+
+A nivel de torneio
+- chavesformadas por 3 duplas
+- distribuição das duplas de acordo com o seu ranking
+- a pontuação da dupla é formada pela soma dos pontos de cada um dos jogadores no ranking
