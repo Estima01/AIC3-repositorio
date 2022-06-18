@@ -7,9 +7,10 @@
   - [x] Fazer a coleta de informação sobre como funciona os jogos e torneios
     - [x] Tabela do torneio
     - [x] Esquema da montagem das chaves
-  - [ ] Montar um ER do sistema e documentar
+  - [x] Montar um ER do sistema e documentar
   - [ ] Analise do sistema
-  - [ ] Criar um esboço com as informações coletadas
+  - [x] Criar um esboço com as informações coletadas
+    - [x] esboço da area de inscrição e login 
   - [ ] apresentação do estudo de caso
   
   
