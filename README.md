@@ -50,7 +50,7 @@ Para inscrição o formulário pede:
 - concordancia com o regulamento
 - torneio/clube
 
-A nivel de torneio
+A nivel de torneio:
 - chavesformadas por 3 duplas
 - distribuição das duplas de acordo com o seu ranking
 - a pontuação da dupla é formada pela soma dos pontos de cada um dos jogadores no ranking
