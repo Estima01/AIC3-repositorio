@@ -54,8 +54,10 @@ A nivel de torneio:
 - chavesformadas por 3 duplas
 - distribuição das duplas de acordo com o seu ranking
 - a pontuação da dupla é formada pela soma dos pontos de cada um dos jogadores no ranking
+- 
+<h1>Relatório 23/06/22</h1> 
 
-<h1>Relatório 23/06/22</h1>
+
 - ter lista de inscrição
 - area de login para organizador
 - ajustes do DER
