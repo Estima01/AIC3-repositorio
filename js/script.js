@@ -15,7 +15,7 @@ function logar(){
                 alert("Login realizado com sucesso!");
                 location.href = "index.html";
             }
-            else{
+            else(login != dados.[i].nome && senha !=[i].senha){
                 alert("Login ou senha incorretos!");
             }
         }
