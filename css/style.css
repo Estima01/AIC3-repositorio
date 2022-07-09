@@ -182,22 +182,8 @@
     padding: 10px;
     flex-direction: column;
 }
-.prox-torneio{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
-    display: flex;
-}
 .titulo{
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-}
-#div-torneio{
-    display: block;
-    margin: 10px;
 }
