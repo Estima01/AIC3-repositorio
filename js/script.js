@@ -15,6 +15,9 @@ function logar(){
                 alert("Login realizado com sucesso!");
                 location.href = "index.html";
             }
+            else{
+                alert("Login ou senha incorretos!");
+            }
         }
     };
 
