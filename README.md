@@ -43,6 +43,7 @@
 Para inscrição o formulário pede:
 
 - Nome e sobrenome da dupla
+- Pontos/rank de cada um
 - telefone dos jogadores
 - cidade onde moram
 - categoria que vão jogar
