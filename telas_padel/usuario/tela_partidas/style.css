@@ -1,0 +1,119 @@
+/* tirando o padding e margin padrão do body*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* variaveis css*/
+:root{
+  --cor-principal: #d56f3a;
+}
+/*div que contem a tabela*/
+.container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: aliceblue;
+}
+/*definindo tabela */
+.container table{
+  width: 70%;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+/*efeito de aproximação ao passar o mouse em cima dos cards*/
+.container table tr:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.corpo td:nth-child(1){
+  display: flex;
+  padding-top: 10%;
+}
+/* estilização do rodapé do card */
+.corpo td:nth-child(2){
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+/*imagens dos jogadores de cima */
+.picture .img-fluid{
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  background-color: transparent;
+}
+
+/*imagem dos jogadores de baixo*/
+.picture2 .img-fluid{
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  background-color: transparent;
+  top: -30%;
+  left: 50%;
+  position: relative;
+}
+/*nome dos jogadores de cima */
+.nome-jogador1 {
+  color: blue;
+  position:relative;
+  top: -30% ;
+  left: 120%;
+  z-index: 2;
+}
+/*nome dos jogadores de baixo*/
+.nome-jogador2{
+  color: red;
+  position:relative;
+  top: -45% ;
+  left: -60%;
+  z-index: 2;
+}
+
+/*espaçando as divs das duplas*/
+table td:nth-child(1){
+  display: flex;
+  justify-content: space-evenly;
+}
+table td:nth-child(2){
+  display: flex;
+  flex-direction: column;
+}
+/* div versus*/
+.versus{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-global);
+  position:relative;
+  top:-1em;
+  z-index: 2;
+  margin: 1em;
+  font: 'Roboto',sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+}
+.versus p:not(:nth-child(1)){
+  font: 'Roboto',sans-serif;
+  font-weight: 500;
+  font-size: 0.5em;
+
+}
+/* atributos do corpo da tabela*/
+.corpo > tr{
+  background-color: #d1d1d1;
+}
+/* paginação*/
+.paginator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

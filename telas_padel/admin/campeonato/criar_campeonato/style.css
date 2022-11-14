@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#container .table{
+  width: 70%;
+}
+.button-table{
+  display: flex;
+  width: 70%;
+  
+
+  
+}
+
+.button-table button{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 3em;
+  border-radius: 1em;
+  width: 100%;
+  border: none;
+  background-color: #d1d1d1;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.btn-adicionar:hover{
+  background-color: green;
+  color: white;
+}
+.btn-editar,.btn-remove{
+  width: 2.5em;
+  height: 2.5em;
+  border: none;
+  background-color: transparent;
+
+}
+.btn-editar:hover{
+  color: blue;
+}
+.btn-remove:hover{
+  color: red;
+}
+.modal-dialog{
+  display: none;
+}
+.select{
+  width: 1em;
+  height: 2em;
+  display: none;
+}
