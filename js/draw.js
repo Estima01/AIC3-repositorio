@@ -15,7 +15,7 @@ square.innerText = 'Padre Marcelo Rossi \n Paulo Cavalcante Muzy';
 document.body.appendChild(square);
 
 // Variáveis com o número de duplas e nome dos jogadores das duplas
-let doubles = 12;
+let doubles = 16;
 let nameDoubles = 'teste da silva \n testando soares';
 
 // Criação dos demais retângulos utilizando a variável com o número de duplas
@@ -44,6 +44,32 @@ square2.innerText = '2 \n 2';
 
 document.body.appendChild(square2);
 
+for (let i = 2; i < ((doubles + 1)/2); i++) {
+    const clone2 = square2.cloneNode();
+    clone2.innerText = nameDoubles;
+    document.body.appendChild(clone2);
+}
+
+// --------------- 3 -----------------
+/* 
+
+if (doubles != 1) {}
+const square3 = document.createElement('div');
+square3.style.width = '200px';
+square3.style.height = '50px';
+square3.style.padding = '10px';
+square3.style.margin = '20px';
+square3.style.marginTop = '0';
+square3.style.marginLeft = "475px";
+square3.style.borderRadius = '10px';
+square3.style.backgroundColor = '#1c8d9e';
+square3.style.display = 'flex';
+
+square3.style.fontSize = '12px'
+square3.innerText = '2 \n 2';
+
+document.body.appendChild(square2);
+
 
 
 
@@ -52,3 +78,4 @@ for (let i = 2; i < ((doubles + 1)/2); i++) {
     clone2.innerText = nameDoubles;
     document.body.appendChild(clone2);
 }
+*/
