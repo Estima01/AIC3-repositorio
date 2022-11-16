@@ -17,109 +17,90 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body>
-    <div class="container">
-      <div class="chave">
-        <h3>CHAVE A</h3>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col" width="70%">PARTIDAS
-              </th>
-            </tr>
-          </thead>
-          <tbody class="corpo">
-            <tr class="linha">
-              <td>
-                <div class="dupla" draggable="true">
-                  <picture class="picture">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador1">NAME 1</p>
-                  <picture class="picture2">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador2">NAME 2</p>
-                </div>
-                <div class="versus">
-                  <p>VS</p>
-                  <p>16:30 - 17:30</p>
-                  <p>27/10/2022</p>
-                </div>
-                <div class="dupla" draggable="true" >
-                  <picture class="picture">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador1">NAME 1</p>
-                  <picture class="picture2">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador2">NAME 2</p>
-                </div>
-              </td>
-            </tr>
-            <tr class="linha">
-              <td>
-                <div class="dupla" draggable="true" >
-                  <picture class="picture">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador1">NAME 1</p>
-                  <picture class="picture2">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador2">NAME 2</p>
-                </div>
-                <div class="versus">
-                  <p>VS</p>
-                  <p>16:30 - 17:30</p>
-                  <p>27/10/2022</p>
-                </div>
-                <div class="dupla" draggable="true" >
-                  <picture class="picture">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador1">NAME 1</p>
-                  <picture class="picture2">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador2">NAME 2</p>
-                </div>
-              </td>
-      
-            </tr>
-            <tr class="linha">
-              <td>
-                <div class="dupla" draggable="true" >
-                  <picture class="picture">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador1">NAME 1</p>
-                  <picture class="picture2">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador2">NAME 2</p>
-                </div>
-                <div class="versus">
-                  <p>VS</p>
-                  <p>16:30 - 17:30</p>
-                  <p>27/10/2022</p>
-                </div>
-                <div class="dupla" draggable="true" >
-                  <picture class="picture">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class='nome-jogador1'>NAME 1</p>
-                  <picture class="picture2">
-                    <img src="profile.svg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-                  <p class="nome-jogador2">NAME 2</p>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>    
-  </div>
+    <table id="tabela">
+    <tr class="kanban">
+      <td class="column">
+        <div class="item" draggable="true">
+          <div class="dupla" draggable="false">
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 1</p>
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 1</p>
+          </div>
+        </div>
+      </td>
+      <td class="columnn">
+        <div class="item" draggable="false">
+          <div class="versus" draggable="false">
+            <p >VS</p>
+            <p >28/11/2022</p>
+            <p >17:30</p>
+            <p >QUADRA 1</p>
+          </div>
+        </div>
+      </td>
+      <td class="column" droppable>
+        <div class="item" draggable="true" >
+          <div class="dupla" draggable="false">
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 1</p>
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 2</p>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="kanban">
+      <td class="column">
+        <div class="item" draggable="true">
+          <div class="dupla" draggable="false">
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 3</p>
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 4</p>
+          </div>
+        </div>
+      </td>
+      <td class="columnn">
+        <div class="item" draggable="false">
+          <div class="item" >
+          <div class="versus" >
+            <p  >VS</p>
+            <p >27/11/2022</p>
+            <p >16:30</p>
+            <p>QUADRA 3</p>
+          </div>
+        </div>
+        </div>
+      </td>
+      <td class="column">
+        <div class="item" draggable="true">
+          <div class="dupla" draggable="false">
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 1</p>
+            <picture draggable="false">
+              <img src="profile.svg" alt="#" draggable="false">
+            </picture>
+            <p draggable="false">NOME 1</p>
+          </div>
+        </div>
+      </td>
+    </tr>
+    </table>
 
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -128,5 +109,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+
   </body>
 </html>
