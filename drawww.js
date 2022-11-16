@@ -1,29 +1,37 @@
 const principalContainer = document.querySelector('.principal-container');
-
+//let containerChave;
 let doubles = 8;
-let contador = 1
 
-while(doubles >= 1){
-
-
-    let container = document.createElement(`div`);
-    principalContainer.appendChild(container);
-    container.classList.add('container-chave');
-
-
-    for (let i = 1; i < (doubles+1); i++) {
-        let containerChave = document.querySelectorAll('.container-chave');
-        let container1 = document.createElement('div')
-        console.log(containerChave)
-        containerChave[contador].append(container1);
-        container1.classList.add('container-dupla-1')
-        //console.log('i',i);
-
+    function CreateContainer(doubles){
+        for(let i = 0; i < doubles; i++){
+        let container = document.createElement('div');
+        principalContainer.appendChild(container);
+        container.classList.add('container-chave');
+        }   
     }
-    console.log('doubles',doubles);
-    doubles /= 2;
-    contador += 1
-}
+
+    function createDoubles(doubles, position){
+        containerChave = document.querySelectorAll('.container-chave');
+
+        for(let i = 0; i < doubles; i++){
+            let container1 = document.createElement('div')
+            containerChave[position].appendChild(container1);
+            container1.classList.add('container-dupla-1')
+            //console.log('position', position)
+        }
+    }
+
+    CreateContainer(4)
+    createDoubles(8,0)
+    createDoubles(4,1)
+    createDoubles(2,2)
+    createDoubles(1,3)
+
+
+
+    //input1 = Number(document.getElementById('input1').value)
+
+
 
 
 
